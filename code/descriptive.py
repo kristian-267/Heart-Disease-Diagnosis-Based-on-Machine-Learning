@@ -215,4 +215,3 @@ for i in range(M):
 plt.show()
 
 corr = pd.DataFrame(X).corr()
-corr.to_excel('output/correlations.xlsx', header=col_names[:-1])
